@@ -5,7 +5,6 @@
 <div align="center">
   <img src="https://raw.githubusercontent.com/TagKrj/Bookstore/master/webBookHome.png" alt="WebBooks Preview" width="100%" />
 </div>
-j
 
 ## Overview
 WebBooks is an e-commerce web application for a bookstore that allows users to browse, search, and purchase books online. It offers features like user authentication, shopping cart management, wishlists, order processing, and payment integration.
