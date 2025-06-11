@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đơn hàng</title>
+
+    <meta name="title" content="EduWeb - The Best Program to Enroll for Exchange">
+    <meta name="description" content="This is an education html template made by codewithsadee">
+
+
+    <!-- 
+    - custom css link
+  -->
+    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="/styles/order.css">
+
+
+    <!-- 
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;600;700;800&family=Poppins:wght@400;500&display=swap"
+        rel="stylesheet">
+
+    <!-- link boostrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+    <header class="header" data-header>
+        <div class="container">
+
+            <a href="index.html" class="logo">
+                <img src="/assets/images/logo.svg" width="162" height="50" alt="EduWeb logo">
+            </a>
+
+            <nav class="navbar" data-navbar>
+
+                <div class="wrapper">
+                    <a href="index.html" class="logo">
+                        <img src="/assets/images/logo.svg" width="162" height="50" alt="EduWeb logo">
+                    </a>
+
+                    <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+                        <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+                    </button>
+                </div>
+
+                <ul class="navbar-list">
+
+                    <li class="navbar-item">
+                        <a href="index.html" class="navbar-link" data-nav-link>Trang chủ</a>
+                    </li>
+
+                    <li class="navbar-item">
+                        <a href="product.html" class="navbar-link" data-nav-link>Cửa hàng</a>
+                    </li>
+
+                    <li class="navbar-item">
+                        <a href="wishList.html" class="navbar-link" data-nav-link>Yêu thích</a>
+                    </li>
+
+                    <li class="navbar-item">
+                        <a href="order.html" class="navbar-link" data-nav-link>Đơn hàng</a>
+                    </li>
+
+                    <li class="navbar-item">
+                        <a href="address.html" class="navbar-link" data-nav-link>Địa chỉ</a>
+                    </li>
+
+                </ul>
+
+            </nav>
+
+            <div class="header-actions">
+
+                <button id="search-btn" class="header-action-btn" aria-label="toggle search" title="Search">
+                    <ion-icon name="search-outline" aria-hidden="true"></ion-icon>
+                </button>
+
+                <button id="cart-btn" class="header-action-btn" aria-label="cart" title="Cart">
+                    <ion-icon name="cart-outline" aria-hidden="true"></ion-icon>
+
+                    <span class="btn-badge">0</span>
+                </button>
+
+                <a href="#" class="btn has-before" id="auth-btn">
+                    <span class="span">Đăng nhập</span>
+
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                </a>
+
+                <button class="header-action-btn" aria-label="open menu" data-nav-toggler>
+                    <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+                </button>
+
+            </div>
+
+            <div class="overlay" data-nav-toggler data-overlay></div>
+
+        </div>
+    </header>
+
+
+
+    <!-- 
+        - #COURSE
+      -->
+
+    <section class="section course" aria-label="course">
+        <div class="container">
+
+            <p class="section-subtitle">Đây là những đơn hàng đã đặt</p>
+
+            <h2 class="h2 section-title">Hãy kiểm tra lại</h2>
+
+            <div class="contentOrder">
+                <div class="menu">
+                    <h1 id="Pending">Đang chờ xử lý</h1>
+                    <h1 id="delivered">Đã giao</h1>
+                    <h1 id="cancelled">Đã hủy</h1>
+                </div>
+
+                <div class="content">
+                    <!-- <div class="boxItem">
+                        <div class="line">
+                            <div class="item">
+                                <div class="boxImg">
+                                    <img src="https://centimet.vn/wp-content/uploads/z3055258346369_3e8fde18288714ab9c3df5f16b9c0b44.jpg"
+                                        alt="">
+                                </div>
+                                <div class="info">
+                                    <h3>Quần áo nam</h3>
+                                    <h3>x9</h3>
+                                </div>
+                                <div class="price">
+                                    <h3>89.09</h3>
+                                    <button>Đánh giá</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="allInfo">
+                            <h3>Thành tiền: <span>89.09</span></h3>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <!-- 
+    - #FOOTER
+  -->
+
+    <footer class="footer" style="background-image: url('/assets/images/footer-bg.png')">
+
+        <div class="footer-top section">
+            <div class="container grid-list">
+
+                <div class="footer-brand">
+
+                    <a href="#" class="logo">
+                        <img src="/assets/images/logo-light.svg" width="162" height="50" alt="BookRental logo">
+                    </a>
+
+                    <p class="footer-brand-text">
+                        Chúng tôi mang đến một thế giới sách đa dạng và phong phú, giúp bạn khám phá tri thức bất tận
+                        chỉ với
+                        một lần thuê.
+                    </p>
+
+                    <div class="wrapper">
+                        <span class="span">Địa chỉ:</span>
+
+                        <address class="address">123 Đường Sách, Quận 1, TP.HCM</address>
+                    </div>
+
+                    <div class="wrapper">
+                        <span class="span">Hotline:</span>
+
+                        <a href="tel:+0123456789" class="footer-link">+01 234 567 89</a>
+                    </div>
+
+                    <div class="wrapper">
+                        <span class="span">Email:</span>
+
+                        <a href="mailto:info@bookrental.com" class="footer-link">info@bookrental.com</a>
+                    </div>
+
+                </div>
+
+                <ul class="footer-list">
+
+                    <li>
+                        <p class="footer-list-title">Về Chúng Tôi</p>
+                    </li>
+
+                    <li>
+                        <a href="#" class="footer-link">Giới Thiệu</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="footer-link">Sách Mới</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="footer-link">Chính Sách Thuê Sách</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="footer-link">Tuyển Dụng</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="footer-link">Phản Hồi</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="footer-link">Hỗ Trợ Khách Hàng</a>
+                    </li>
+
+                </ul>
+
+                <ul class="footer-list">
+
+                    <li>
+                        <p class="footer-list-title">Liên Kết Nhanh</p>
+                    </li>
+
+                    <li>
+                        <a href="#" class="footer-link">Liên Hệ</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="footer-link">Thư Viện Ảnh</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="footer-link">Tin Tức & Bài Viết</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="footer-link">Câu Hỏi Thường Gặp</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="footer-link">Đăng Ký Thành Viên</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="footer-link">Sắp Ra Mắt</a>
+                    </li>
+
+                </ul>
+
+                <div class="footer-list">
+
+                    <p class="footer-list-title">Đăng Ký Nhận Tin</p>
+
+                    <p class="footer-list-text">
+                        Nhập email của bạn để nhận thông tin về sách mới và ưu đãi đặc biệt từ cửa hàng.
+                    </p>
+
+                    <form action="" class="newsletter-form">
+                        <input type="email" name="email_address" placeholder="Email của bạn" required
+                            class="input-field">
+
+                        <button type="submit" class="btn has-before">
+                            <span class="span">Đăng Ký</span>
+
+                            <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                        </button>
+                    </form>
+
+                    <ul class="social-list">
+
+                        <li>
+                            <a href="#" class="social-link">
+                                <ion-icon name="logo-facebook"></ion-icon>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="social-link">
+                                <ion-icon name="logo-linkedin"></ion-icon>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="social-link">
+                                <ion-icon name="logo-instagram"></ion-icon>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="social-link">
+                                <ion-icon name="logo-twitter"></ion-icon>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="social-link">
+                                <ion-icon name="logo-youtube"></ion-icon>
+                            </a>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container">
+
+                <p class="copyright">
+                    Copyright 2024 by <a href="#" class="copyright-link">Diệu, Tuấn Anh, Hưng, Hùng</a>
+                </p>
+
+            </div>
+        </div>
+
+    </footer>
+
+
+
+
+
+
+    <!-- 
+- #BACK TO TOP
+-->
+
+    <a href="#top" class="back-top-btn" aria-label="back top top" data-back-top-btn>
+        <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+    </a>
+
+
+
+
+
+    <!-- 
+- custom js link
+-->
+    <script src="/script.js" defer></script>
+    <script type="module" src="../widgets/orderView.js" defer></script>
+    <!-- 
+- ionicon link
+-->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>

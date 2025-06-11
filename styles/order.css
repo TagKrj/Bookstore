@@ -1,0 +1,137 @@
+/* Đặt nền cho tiêu đề và phụ đề */
+.section-title,
+.section-subtitle {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.section-title {
+    font-size: 24px;
+    font-weight: 700;
+    color: #333;
+}
+
+.section-subtitle {
+    font-size: 18px;
+    font-weight: 400;
+    color: #666;
+}
+
+/* Đặt nền cho menu trạng thái đơn hàng */
+.menu {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.menu h1 {
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.menu h1:hover {
+    background-color: #4ce09b;
+    color: #ffffff;
+}
+
+/* Đặt nền cho nội dung đơn hàng */
+.content {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.boxItem {
+    background-color: #ffffff;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.line {
+    display: flex;
+    flex-direction: column;
+    /* Đặt các mục theo cột */
+    align-items: flex-start;
+    /* Căn trái các mục */
+    justify-content: flex-start;
+    /* Căn trên các mục */
+    gap: 10px;
+    /* Khoảng cách giữa các mục */
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    /* Đảm bảo các mục chiếm toàn bộ chiều rộng */
+}
+
+.boxImg img {
+    width: 100px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.info {
+    margin-left: 20px;
+    flex-grow: 1;
+    /* Đảm bảo thông tin chiếm không gian còn lại */
+}
+
+.info h3 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.price {
+    text-align: right;
+    flex-shrink: 0;
+    /* Đảm bảo giá không co lại */
+}
+
+.price h3 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 600;
+    color: #007bff;
+}
+
+.price button {
+    background-color: #28a745;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 5px 10px;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.price button:hover {
+    background-color: #218838;
+}
+
+/* Đặt nền cho thông tin tổng tiền */
+.allInfo {
+    text-align: right;
+    margin-top: 10px;
+}
+
+.allInfo h3 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+}
+
+.allInfo span {
+    color: #007bff;
+}

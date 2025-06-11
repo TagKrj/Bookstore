@@ -1,0 +1,100 @@
+.container {
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+    flex-direction: row;
+}
+
+.addressContainer {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(99, 240, 193);
+    border-radius: 10px;
+}
+
+.addressContainer .item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px;
+    border-bottom: 1px solid black;
+}
+
+.addressContainer .item .address {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.addressContainer .item .action {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+}
+
+.addressContainer .item .action a {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    width: 100px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(206, 206, 206);
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.form {
+    width: 40%;
+    height: fit-content;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.form-input:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+.has-before {
+    display: inline-block;
+    padding: 10px 20px;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}

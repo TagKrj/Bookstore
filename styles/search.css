@@ -1,0 +1,23 @@
+.search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.input-field {
+    background-color: rgb(206, 206, 206);
+    max-width: 700px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.input-field::placeholder {
+    color: rgb(17, 17, 17);
+}
+
+.search-container i {
+    margin-left: -30px;
+    color: rgb(17, 17, 17);
+    cursor: pointer;
+}
