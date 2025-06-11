@@ -2,7 +2,10 @@
 
 [English | Tiếng Việt (Hiện tại)](README.md)
 
-![Trang chủ WebBooks](https://github.com/TagKrj/Bookstore/blob/master/webBookHome.png)
+<div align="center">
+  <img src="https://raw.githubusercontent.com/TagKrj/Bookstore/master/webBookHome.png" alt="WebBooks Preview" width="100%" />
+</div>
+
 
 ## Tổng Quan
 WebBooks là một ứng dụng web thương mại điện tử cho cửa hàng sách, cho phép người dùng duyệt, tìm kiếm và mua sách trực tuyến. Nó cung cấp các tính năng như xác thực người dùng, quản lý giỏ hàng, danh sách yêu thích, xử lý đơn hàng và tích hợp thanh toán.
