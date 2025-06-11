@@ -2,6 +2,8 @@
 
 [English (Current) | Tiếng Việt](README.vi.md)
 
+![WebBooks Homepage](https://github.com/TagKrj/Bookstore/blob/master/webBookHome.png)
+
 ## Overview
 WebBooks is an e-commerce web application for a bookstore that allows users to browse, search, and purchase books online. It offers features like user authentication, shopping cart management, wishlists, order processing, and payment integration.
 
