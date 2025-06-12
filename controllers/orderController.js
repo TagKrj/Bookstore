@@ -7,7 +7,7 @@ class CheckOrderController {
 
     async fetchCheckOrder(token, status) {
         try {
-            const response = await fetch(`https://javelin-advanced-daily.ngrok-free.app/api/order/me/?status=${status}`, {
+            const response = await fetch(`http://52.175.37.189:8080/api/order/me/?status=${status}`, {
                 method: 'GET',
                 headers: {
                     'Content-Type': 'application/json',

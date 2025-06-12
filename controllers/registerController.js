@@ -1,6 +1,6 @@
 class RegisterController {
     constructor() {
-        this.baseUrl = 'https://javelin-advanced-daily.ngrok-free.app/auth/users/';
+        this.baseUrl = 'http://52.175.37.189:8080/auth/users/';
     }
 
     async registerFetch(accountModel) {

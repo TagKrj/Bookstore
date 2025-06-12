@@ -7,7 +7,7 @@ class ProductController {
 
     async fetchProducts() {
         try {
-            const response = await fetch(`https://javelin-advanced-daily.ngrok-free.app/api/products/`, {
+            const response = await fetch(`http://52.175.37.189:8080/api/products/`, {
                 method: 'GET',
                 headers: {
                     'Content-Type': 'application/json',

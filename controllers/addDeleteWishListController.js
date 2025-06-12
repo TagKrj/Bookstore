@@ -5,7 +5,7 @@ class AddDeleteWishlistController {
 
     async toggleWishlistItem(token, id) {
         try {
-            const response = await fetch(`https://javelin-advanced-daily.ngrok-free.app/api/wishlist/toggle/?id=${id}`, {
+            const response = await fetch(`http://52.175.37.189:8080/api/wishlist/toggle/?id=${id}`, {
                 method: 'GET',
                 headers: {
                     'Content-Type': 'application/json',

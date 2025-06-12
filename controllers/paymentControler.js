@@ -9,7 +9,7 @@ class PaymentViewModel {
     async fetchPayment(token, customer_id, order_products, rated, total_quantity, subtotal, total, delivery_status, payment_status, address) {
         try {
             // Gửi yêu cầu POST đến API
-            const response = await fetch(`https://javelin-advanced-daily.ngrok-free.app/api/order/add/`, {
+            const response = await fetch(`http://52.175.37.189:8080/api/order/add/`, {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',

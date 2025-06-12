@@ -7,7 +7,7 @@ class EditAddressDefaultViewModel {
 
     async fetchEditAddressDefault(token, id) {
         try {
-            const response = await fetch(`https://javelin-advanced-daily.ngrok-free.app/api/address/default/?id=${id}`, {
+            const response = await fetch(`http://52.175.37.189:8080/api/address/default/?id=${id}`, {
                 method: 'PATCH',
                 headers: {
                     'Content-Type': 'application/json',

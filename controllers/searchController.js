@@ -7,7 +7,7 @@ class SearchController {
 
     async fetchSearch(text) {
         try {
-            const response = await fetch(`https://javelin-advanced-daily.ngrok-free.app/api/products/search/?q=${text}`, {
+            const response = await fetch(`http://52.175.37.189:8080/api/products/search/?q=${text}`, {
                 method: 'GET',
                 headers: {
                     'Content-Type': 'application/json',

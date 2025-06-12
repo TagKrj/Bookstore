@@ -5,7 +5,7 @@ class DeleteCartViewModel {
 
     async fetchDeleteCart(token, id) {
         try {
-            const response = await fetch(`https://javelin-advanced-daily.ngrok-free.app/api/cart/remove/?id=${id}`, {
+            const response = await fetch(`http://52.175.37.189:8080/api/cart/remove/?id=${id}`, {
                 method: 'DELETE',
                 headers: {
                     'Content-Type': 'application/json',

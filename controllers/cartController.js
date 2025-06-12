@@ -7,7 +7,7 @@ class CartController {
 
     async fetchCartProducts(token) {
         try {
-            const response = await fetch(`https://javelin-advanced-daily.ngrok-free.app/api/cart/me/`, {
+            const response = await fetch(`http://52.175.37.189:8080/api/cart/me/`, {
                 method: 'GET',
                 headers: {
                     'Content-Type': 'application/json',

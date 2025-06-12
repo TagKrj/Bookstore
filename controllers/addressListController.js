@@ -7,7 +7,7 @@ class AddressViewModel {
 
     async fetchAddress(token) {
         try {
-            const response = await fetch(`https://javelin-advanced-daily.ngrok-free.app/api/address/addreslist/`, {
+            const response = await fetch(`http://52.175.37.189:8080/api/address/addreslist/`, {
                 method: 'GET',
                 headers: {
                     'Content-Type': 'application/json',

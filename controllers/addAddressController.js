@@ -7,7 +7,7 @@ class AddAddressViewModel {
 
     async fetchAddAddress(token, lat, lng, isDefault, address, phone, addressType) {
         try {
-            const response = await fetch(`https://javelin-advanced-daily.ngrok-free.app/api/address/add/`, {
+            const response = await fetch(`http://52.175.37.189:8080/api/address/add/`, {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',

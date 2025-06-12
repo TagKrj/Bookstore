@@ -7,7 +7,7 @@ class WishlistController {
 
     async fetchWishlist(token) {
         try {
-            const response = await fetch(`https://javelin-advanced-daily.ngrok-free.app/api/wishlist/me/`, {
+            const response = await fetch(`http://52.175.37.189:8080/api/wishlist/me/`, {
                 method: 'GET',
                 headers: {
                     'Content-Type': 'application/json',

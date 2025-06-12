@@ -7,7 +7,7 @@ class QuantityCartViewModel {
 
     async fetchQuantityCart(token, id, count) {
         try {
-            const response = await fetch(`https://javelin-advanced-daily.ngrok-free.app/api/cart/update/?id=${id}&count=${count}`, {
+            const response = await fetch(`http://52.175.37.189:8080/api/cart/update/?id=${id}&count=${count}`, {
                 method: 'PATCH',
                 headers: {
                     'Content-Type': 'application/json',

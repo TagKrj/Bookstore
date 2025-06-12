@@ -7,7 +7,7 @@ class ProductSimilarController {
 
     async fetchProductSimilar(category) {
         try {
-            const response = await fetch(`https://javelin-advanced-daily.ngrok-free.app/api/products/recommendation/?category=${category}`, {
+            const response = await fetch(`http://52.175.37.189:8080/api/products/recommendation/?category=${category}`, {
                 method: 'GET',
                 headers: {
                     'Content-Type': 'application/json',
